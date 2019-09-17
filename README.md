@@ -7,3 +7,4 @@ Repo for Juypter Notebooks
 * All notebooks that have Scala are not yet fully tested as Spark-Scala is not yet implemented fully, but pyspark/sql/markdown cells should be fully operational
 * There are 3 "Setup" cells at the top of each notebook: Setting up the Jar for SQL and creating the PySpark interpreter. The  cells will be removed once those functions are natively working
 * IMPORTANT: splice hints (--splice-properties) does not currently work.
+* For Data Scientists/c. Using Spark in Jupyter Notebooks needs to be fixed
