@@ -18,7 +18,7 @@ for i in os.listdir():
                         "outputs": [],
                         "source": [
                             "import os\n",
-                            "os.environ['JDBC_HOST'] = 'jrtest01-splice-hregion'"
+                            "os.environ['JDBC_HOST'] = 'jr1000-splice-hregion'"
                         ]
                     }
                     data['cells'].insert(0,cell)
