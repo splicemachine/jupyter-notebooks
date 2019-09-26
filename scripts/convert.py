@@ -78,9 +78,9 @@ def convert_parsed(zeppelin_note):
             "outputs": [],
             "source": [
                 "import os\n",
-                "os.environ['JDBC_HOST'] = 'jrtest01-splice-hregion'\n"
+                "os.environ['JDBC_HOST'] = 'jr1000-splice-hregion'\n"
             ]
-        }, 
+        },
         {
             "cell_type": "code",
             "execution_count": None,
@@ -99,12 +99,12 @@ def convert_parsed(zeppelin_note):
                 "jdbc_host = os.environ['JDBC_HOST']\n",
                 "\n",
                 "conf = pyspark.SparkConf()\n",
-                "sc = pyspark.SparkContext(conf=conf)\n", 
+                "sc = pyspark.SparkContext(conf=conf)\n",
                 "\n",
                 "spark = SparkSession.builder.config(conf=conf).getOrCreate()\n",
                 "'''jdbc:splice://{FRAMEWORKNAME}-proxy.marathon.mesos:1527/splicedb;user=splice;password=admin'''\n",
                 "\n",
-                "splicejdbc=f'jdbc:splice://{jdbc_host}:1527/splicedb;user=splice;password=admin'\n", 
+                "splicejdbc=f'jdbc:splice://{jdbc_host}:1527/splicedb;user=splice;password=admin'\n",
                 "\n",
                 "splice = PySpliceContext(spark, splicejdbc)\n"
             ]
