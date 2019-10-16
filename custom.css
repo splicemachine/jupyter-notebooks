@@ -1,7 +1,7 @@
 
 .rendered_html h1, .rendered_html h2, .rendered_html h3, .rendered_html h4, .rendered_html h5
 {
-	line-height: 105%;
+	line-height: 110%;
 	font-weight: 600;
 	font-style: normal;
 	margin: 2px, 0, 4px, 0;
@@ -11,7 +11,7 @@
 
 .rendered_html h1
 {
-	font-size: 1.7em;
+	font-size: 24px;
 	margin-top: 0px;
 	margin-bottom: 8px;
 	padding-bottom: 10px;
@@ -20,21 +20,21 @@
 
 .rendered_html h2
 {
-	font-size: 1.5em;
+	font-size: 20px;
 	margin-top: 50px;
 	color: #3390db;
 }
 
 .rendered_html h3
 {
-	font-size: 1.3em;
+	font-size: 18px;
 	margin-top: 40px;
 	color: #f7a800;
 }
 
 .rendered_html h4
 {
-	font-size: 1.2em;
+	font-size: 15px;
 	font-style: italic;
 	margin-top: 30px;
 	color: #174e89;
@@ -42,7 +42,7 @@
 
 .rendered_html h5
 {
-	font-size: 1.2em;
+	font-size: 15px;
 	font-weight: bold;
 	margin-top: 25px;
 	color: #606060;
@@ -94,7 +94,9 @@
 	max-height: 50px;
 }
 
-.rendered_html p { font-size:1.1.em;
+.rendered_html p {
+	font-size: 13px;
+	line-height: 18px;
 	color: #4a4f54;
 	font-family: 'Open Sans', sans-serif;
 }
@@ -179,6 +181,26 @@
 	font-weight: 600;
 }
 
+.rendered_html li {
+	margin-top: 10px;
+}
+
+.rendered_html ul,
+.rendered_html ol,
+.rendered_html li {
+    color: #4a4f54;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+	line-height: 18px;
+}
+
+
+.rendered_html ul.italic,
+.rendered_html ol.italic,
+.rendered_html li.italic {
+	font-style: italic;
+}
+
 .rendered_html span.ConsoleLink {
 	font-weight: 600;
 	color: #3ba3d8;
@@ -195,11 +217,13 @@
 	padding-left:0;
 	font-family: 'Open Sans', sans-serif;
 	color: #4a4f54;
+	font-size: 13px;
 }
 
 .rendered_html th, .rendered_html td {
 	text-align:left;
-	font-size: 1.1em;
+	font-size: 13px;
+	line-height:18px;
 }
 
 .rendered_html table.splicezep,
@@ -216,14 +240,10 @@
 	word-wrap: break-word;
 	overflow: auto;
 	text-align: left;
-	font-size: 1.1em;
+	font-size: 13px;
+	line-height: 18px;
 }
 
-table, table.tr, table.th,  table.td {
-    display: block;
-    text-align: left;
-	font-size: inherit;
-}
 
 .rendered_html table.splicezepOddEven {
 	border: 1px solid #F39939;
@@ -245,12 +265,13 @@ table, table.tr, table.th,  table.td {
 
 .rendered_html table.splicezepOddEven tr:nth-child(even) {
 	border: 1px solid #F39939;
-	background-color: #fefefe;
+	background-color: #F8F8F8;
+
 }
 
 .rendered_html table.splicezepOddEven tr:nth-child(odd) {
 	border: 1px solid #F39939;
-	background-color: #F6F6F8;
+	background-color: #FEFEFE;
 }
 
 .rendered_html table.splicezep td,
@@ -269,7 +290,7 @@ table, table.tr, table.th,  table.td {
 .rendered_html table.splicezepOddEven td.CodeFont,
 .rendered_html table.splicezepOddEven td.BoldFont,
 .rendered_html table.splicezepOddEven td.ItalicFont {
-	border: 1px solid #F39939;
+	border: 1px solid #8d9090;
 	padding: 12px 8px 12px 8px;
 	text-align: left;
 	vertical-align: top;
@@ -343,7 +364,7 @@ table, table.tr, table.th,  table.td {
 }
 
 .rendered_html table.splicezepOddEven th {
-	border: 1px solid #F39939;
+	border: 1px solid #8d9090;
 }
 
 .rendered_html table.splicezepNoBorder th {
@@ -361,15 +382,96 @@ table, table.tr, table.th,  table.td {
 	margin: 0;
 }
 
-.rendered_html ul, 
-.rendered_html ol {
-    color: #4a4f54;
-    font-family: 'Open Sans', sans-serif;
-    font-size: inherit;
+.rendered_html div.noteIcon {
+	background-color: #F6F6F8;
+	background-repeat: no-repeat;
+	background-image: url("https://doc.splicemachine.com/zeppelin/images/zepNoteIcon.png");
+	color: #4a4f54;
+	margin: 20px 60px 20px 60px;
+	padding: 5px 10px 5px 48px;
+	font-weight: normal;
+	z-index: -1;
+	border: 2px solid #d6dbe0;
+	border-radius: 12px;
+	max-width: 75%;
+	min-height: 48px;
+}
+.rendered_html div.noteIcon:before {
+	content: "";
+	color: #F39939;
+	font-weight: 600;
+}
+
+.rendered_html div.noteImportant,
+.rendered_html div.noteQuestion,
+.rendered_html div.noteHint {
+	background-color: #FFFFFF;
+	color: #4a4f54;
+	margin: 20px 60px 20px 60px;
+	padding: 5px 10px 5px 48px;
+	font-weight: normal;
+	z-index: -1;
+	border: none;
+	max-width: 75%;
+}
+
+.rendered_html div.noteImportant:before {
+	content: "Important: ";
+	color: red;
+	font-weight: bold;
+	margin-left: -90px;
+}
+
+.rendered_html div.noteImportant {
+	margin-left: 120px;
+}
+
+.rendered_html div.noteQuestion:before {
+	content: "Question: ";
+	font-weight: bold;
+	color: #174e89;
 }
 
 
-.rendered_html ul.italic,
-.rendered_html ol.italic {
-	font-style: italic;
+.rendered_html div.noteHint:before {
+	content: "Hint: ";
+	font-weight: bold;
+	color: #174e89;
+}
+
+
+.rendered_html div.noteNote,
+.rendered_html div.notePlain {
+	background-color: #F6F6F8;
+	background-repeat: no-repeat;
+	background-image: none;
+	color: #4a4f54;
+	margin: 20px 20px 20px 32px;
+	padding: 5px 10px 5px 10px;
+	font-weight: normal;
+	z-index: -1;
+	border: 2px solid #d6dbe0;
+	border-radius: 12px;
+	max-width: 75%;
+	min-height: 0;
+}
+.rendered_html div.noteNote:before {
+	content: "NOTE: ";
+	color: #F39939;
+	font-weight: 600;
+}
+
+.rendered_html code {
+	color: #4a4f54;
+	font-size: inherit;
+}
+
+.rendered_html pre {
+	font-size: 13px;
+	line-height: 18px;
+}
+
+pre.CodeMirror-line {
+	font-size: 13px;
+ 	line-height: 18px;
 }
