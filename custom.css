@@ -228,7 +228,8 @@
 
 .rendered_html table.splicezep,
 .rendered_html table.splicezepNoBorder,
-.rendered_html table.splicezepOddEven
+.rendered_html table.splicezepOddEven,
+.rendered_html table.splicezepOddEvenNoBorder
 {
 	table-layout: auto;
 	min-width: 25%;
@@ -249,7 +250,8 @@
 	border: 1px solid #F39939;
 }
 
-.rendered_html table.splicezepNoBorder
+.rendered_html table.splicezepNoBorder,
+.rendered_html table.splicezepOddEvenNoBorder
 {
 	border: none;
 }
@@ -258,20 +260,27 @@
 
 }
 
-.rendered_html table.splicezepNoBorder tr {
+.rendered_html table.splicezepNoBorder tr,
+.rendered_html table.splicezepNoBorderOddEven tr {
 	border: none;
 	background-color: transparent;
 }
 
 .rendered_html table.splicezepOddEven tr:nth-child(even) {
-	border: 1px solid #F39939;
 	background-color: #F8F8F8;
 
 }
 
 .rendered_html table.splicezepOddEven tr:nth-child(odd) {
-	border: 1px solid #F39939;
 	background-color: #FEFEFE;
+}
+
+.rendered_html table.splicezepOddEven tr {
+	border: 1px solid #F39939;
+}
+
+.rendered_html table.splicezepOddEvenNoBorder tr {
+	border: none;
 }
 
 .rendered_html table.splicezep td,
@@ -297,6 +306,17 @@
 	word-wrap: break-word;
 	overflow: auto;
 }
+.rendered_html table.splicezepOddEvenNoBorder td,
+.rendered_html table.splicezepOddEvenNoBorder td.CodeFont,
+.rendered_html table.splicezepOddEvenNoBorder td.BoldFont,
+.rendered_html table.splicezepOddEvenNoBorder td.ItalicFont {
+	border: none;
+	padding: 12px 8px 12px 8px;
+	text-align: left;
+	vertical-align: top;
+	word-wrap: break-word;
+	overflow: auto;
+}
 
 .rendered_html table.splicezepNoBorder td,
 .rendered_html table.splicezepNoBorder td.CodeFont,
@@ -312,29 +332,32 @@
 
 .rendered_html table.splicezep td.CodeFont,
 .rendered_html table.splicezepNoBorder td.CodeFont,
-.rendered_html table.splicezepOddEven td.CodeFont
+.rendered_html table.splicezepOddEven td.CodeFont,
+.rendered_html table.splicezepOddEvenNoBorder td.CodeFont
 {
 	font-family: "Courier";
 }
 
 .rendered_html table.splicezep td.ItalicFont,
 .rendered_html table.splicezepNoBorder td.ItalicFont,
-.rendered_html table.splicezepOddEven td.ItalicFont
-
+.rendered_html table.splicezepOddEven td.ItalicFont,
+.rendered_html table.splicezepOddEvenNoBorder td.ItalicFont
 {
 	font-style: italic;
 }
 
 .rendered_html table.splicezep td.BoldFont,
 .rendered_html table.splicezepNoBorder td.BoldFont,
-.rendered_html table.splicezepOddEven td.BoldFont
+.rendered_html table.splicezepOddEven td.BoldFont,
+.rendered_html table.splicezepOddEvenNoBorder td.BoldFont
 {
 	font-weight: bold;
 }
 
 .rendered_html table.splicezep td p:first-child,
 .rendered_html table.splicezepNoBorder td p:first-child,
-.rendered_html table.splicezepOddEven td p:first-child
+.rendered_html table.splicezepOddEven td p:first-child,
+.rendered_html table.splicezepOddEvenNoBorder td p:first-child
 {
 	margin-top: 0;
 }
@@ -344,14 +367,16 @@
 .rendered_html table.splicezepNoBorder td > ul > li:first-of-type,
 .rendered_html table.splicezepNoBorder td > ol > li:first-of-type,
 .rendered_html table.splicezepOddEven td > ul > li:first-of-type,
-.rendered_html table.splicezepOddEven td > ol > li:first-of-type
-{
+.rendered_html table.splicezepOddEven td > ol > li:first-of-type,
+.rendered_html table.splicezepOddEvenNoBorder td > ul > li:first-of-type,
+.rendered_html table.splicezepOddEvenNoBorder td > ol > li:first-of-type{
 	margin-top: 0;
 }
 
 .rendered_html table.splicezep th,
 .rendered_html table.splicezepNoBorder th,
-.rendered_html table.splicezepOddEven th {
+.rendered_html table.splicezepOddEven th,
+.rendered_html table.splicezepOddEvenNoBorder th {
 	border: 1px solid #8d9090;
 	padding: 8px;
 	text-align: left;
@@ -367,14 +392,16 @@
 	border: 1px solid #8d9090;
 }
 
-.rendered_html table.splicezepNoBorder th {
+.rendered_html table.splicezepNoBorder th,
+.rendered_html table.splicezepOddEvenNoBorder {
 	border: none;
 	background-color: transparent;
 }
 
 .rendered_html table.splicezep img,
 .rendered_html table.splicezepNoBorder img,
-.rendered_html table.splizezepOddEven img
+.rendered_html table.splizezepOddEven img,
+.rendered_html table.splizezepOddEvenNoBorder img
 {
 	border: none;
 	width: auto;
