@@ -3,12 +3,11 @@
 
 Here's a collection of random notes about working with Markdown and HTML in Jupyter notebooks:
 
-* [Using HTML and Markdown Together](#htmlmark)
-* [Link to Anchor in Same Notebook](#intralink)
-* [Link to Anchor in Another Notebook](#interlink)
+* Using HTML and Markdown Together
+* About Headings
 
 
-## <a id='htmlmark'>Using HTML and Markdown Together</a>
+## Using HTML and Markdown Together
 
 
 You can freely use HTML tags within a markdown cell. However, you CANNOT use markdown within an HTML tag.
@@ -30,25 +29,9 @@ But these are not:
 
 Markdown is converted into HTML, so you can use html tags within markdown; however, you cannot use markdown within HTML sections
 
-## <a id='intralink'>Link to Anchor in Same Notebook</a>
 
-To create a internal clickable link in the same notebook:
+## About Headings
 
-1. Create link
-    [To some Internal Section](#section_id)
+Heading tags (#, ##, ###, ####, ####) should only be used for headings, not for emphasis. This is standard practice for HTML page design, and will become vital if/when Splice Machine has to be accessible, which means that a low-vision or blind person can use these pages via a screen reader. Screen readers depend on headings being used only as headings and on headings having appropriate and sequential nesting.
 
-2. Create destination
-    <a id='section_id'></a>
-
-## <a id='interlink'>Link to Anchor in Another Notebook</a>
-
-To create link in one notebook and destination in another notebook.
-
-1. Create link
-    [To Some Internal Section](another_notebook.ipynb#section_id2)
-
-2. Create Destination
-    <a id='section_id2'></a>
-
-    If the notebook is inside a folder present in the current working directory:
-        [To Some Internal Section](TestFolder/another_notebook.ipynb#section_id3)
+Use italics for emphasis, and use bold for strong emphasis.
