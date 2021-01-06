@@ -8,4 +8,5 @@ The set of notebooks inside the [cloud_notebooks](https://github.com/splicemachi
 folder are made available upon the creation of a new [Splice Machine Database](https://cloud.splicemachine.io/register?utm_source=jupytergithub&utm_medium=header&utm_campaign=sandbox)
 
 <br>
+
 You can try Splice Machine today, for free, [here](https://cloud.splicemachine.io/register?utm_source=jupytergithub&utm_medium=header&utm_campaign=sandbox)
