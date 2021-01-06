@@ -1,7 +1,15 @@
-# jupyter-notebooks
-Repo for Juypter Notebooks
+# [Splice Machine's](https://www.splicemachine.com) Jupyter Notebooks Repo
+## The official repository for the Splice Machine Jupyter Notebook based documentation
 
-# A few notes
-* Because Jupyter notebooks don't have the odd naming convention the way Zeppelin notebooks do, each notebooks name will be the correct title of that note, not simply <code>node.json</code>
-* There are 2 sets of notebooks that we use, cloud service and training. They will be separated by the two main directories here aptly named
+Splice Machine is a scale-out, [open source](https://github.com/splicemachine/spliceengine) HTAP
+Database with native [Machine Learning](https://splicemachine.com/solutions/data-scientists/) built in.
+
+The set of notebooks inside the [cloud_notebooks](https://github.com/splicemachine/jupyter-notebooks/tree/master/cloud_notebooks)
+folder are made available upon the creation of a new [Splice Machine Database](https://cloud.splicemachine.io/register?utm_source=jupytergithub&utm_medium=header&utm_campaign=sandbox)
+
+<br>
+
+You can try Splice Machine today, for free, [here](https://cloud.splicemachine.io/register?utm_source=jupytergithub&utm_medium=header&utm_campaign=sandbox)<br>
+See our official documentation [here](https://doc.splicemachine.com/)<br>
+See our Python and ML documentation [here](https://pysplice.readthedocs.io/en/latest/)
 
