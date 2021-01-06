@@ -9,4 +9,7 @@ folder are made available upon the creation of a new [Splice Machine Database](h
 
 <br>
 
-You can try Splice Machine today, for free, [here](https://cloud.splicemachine.io/register?utm_source=jupytergithub&utm_medium=header&utm_campaign=sandbox)
+You can try Splice Machine today, for free, [here](https://cloud.splicemachine.io/register?utm_source=jupytergithub&utm_medium=header&utm_campaign=sandbox)<br>
+See our official documentation [here](https://doc.splicemachine.com/)
+See our Python and ML documentation [here](https://pysplice.readthedocs.io/en/latest/)
+
