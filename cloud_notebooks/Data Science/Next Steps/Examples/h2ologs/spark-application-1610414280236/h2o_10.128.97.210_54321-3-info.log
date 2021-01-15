@@ -1,0 +1,129 @@
+01-12 01:18:15.285 10.128.97.210:54321   15763  Thread-5  INFO: H2O's worker node (2,10.128.97.114,54321) started.
+01-12 01:18:15.299 10.128.97.210:54321   15763  Thread-5  INFO: H2O's worker node (1,10.128.96.213,54321) started.
+01-12 01:18:15.299 10.128.97.210:54321   15763  Thread-5  INFO: ----- H2O started (client) -----
+01-12 01:18:15.299 10.128.97.210:54321   15763  Thread-5  INFO: Build git branch: rel-yule
+01-12 01:18:15.299 10.128.97.210:54321   15763  Thread-5  INFO: Build git hash: 317988c9c7bdf621d04cc7b8ffbcc71ddf44d265
+01-12 01:18:15.299 10.128.97.210:54321   15763  Thread-5  INFO: Build git describe: jenkins-3.28.1.1-33-g317988c
+01-12 01:18:15.299 10.128.97.210:54321   15763  Thread-5  INFO: Build project version: 3.28.1.2
+01-12 01:18:15.299 10.128.97.210:54321   15763  Thread-5  INFO: Build age: 9 months and 25 days
+01-12 01:18:15.299 10.128.97.210:54321   15763  Thread-5  INFO: Built by: 'jenkins'
+01-12 01:18:15.300 10.128.97.210:54321   15763  Thread-5  INFO: Built on: '2020-03-17 15:11:04'
+01-12 01:18:15.300 10.128.97.210:54321   15763  Thread-5  INFO: 
+01-12 01:18:15.300 10.128.97.210:54321   15763  Thread-5  INFO: *** Your H2O version is too old! Please download the latest version from http://h2o.ai/download/ ***
+01-12 01:18:15.300 10.128.97.210:54321   15763  Thread-5  INFO: 
+01-12 01:18:15.300 10.128.97.210:54321   15763  Thread-5  INFO: Found H2O Core extensions: [HiveTableImporter, StackTraceCollector, XGBoost]
+01-12 01:18:15.300 10.128.97.210:54321   15763  Thread-5  INFO: Processed H2O arguments: [-allow_clients, -internal_security_conf_rel_paths, -name, sparkling-water-jovyan_spark-application-1610414280236, -port_offset, 1, -nthreads, 5, -client_disconnect_timeout, 60000, -hdfs_config, /tmp/spark-640caaea-ef2f-45f7-b6a5-f5da2da84ab2/userFiles-fe2f2231-1221-4b44-a908-20862aa08065/hdfs_conf4226497370516877515.xml, -embedded, -quiet, -log_level, INFO, -log_dir, /home/jovyan/jupyter-notebooks/cloud_notebooks/Data Science/Next Steps/Examples/h2ologs/spark-application-1610414280236, -baseport, 54321, -ip, 10.128.97.210, -client, -flatfile, /tmp/spark-640caaea-ef2f-45f7-b6a5-f5da2da84ab2/sparkling-water-ab67f5a0-8f2c-4fde-bbff-6f602d3afbbf/flatfile.txt]
+01-12 01:18:15.300 10.128.97.210:54321   15763  Thread-5  INFO: Java availableProcessors: 8
+01-12 01:18:15.300 10.128.97.210:54321   15763  Thread-5  INFO: Java heap totalMemory: 1006.5 MB
+01-12 01:18:15.300 10.128.97.210:54321   15763  Thread-5  INFO: Java heap maxMemory: 1.78 GB
+01-12 01:18:15.300 10.128.97.210:54321   15763  Thread-5  INFO: Java version: Java 1.8.0_121 (from Oracle Corporation)
+01-12 01:18:15.300 10.128.97.210:54321   15763  Thread-5  INFO: JVM launch parameters: [-Xmx2g]
+01-12 01:18:15.300 10.128.97.210:54321   15763  Thread-5  INFO: JVM process id: 15763@jupyter-jack
+01-12 01:18:15.300 10.128.97.210:54321   15763  Thread-5  INFO: OS version: Linux 4.19.112+ (amd64)
+01-12 01:18:15.300 10.128.97.210:54321   15763  Thread-5  INFO: Machine physical memory: 31.42 GB
+01-12 01:18:15.300 10.128.97.210:54321   15763  Thread-5  INFO: Machine locale: en_US
+01-12 01:18:15.300 10.128.97.210:54321   15763  Thread-5  INFO: X-h2o-cluster-id: 1610414287997
+01-12 01:18:15.300 10.128.97.210:54321   15763  Thread-5  INFO: User name: 'jovyan'
+01-12 01:18:15.300 10.128.97.210:54321   15763  Thread-5  INFO: IPv6 stack selected: false
+01-12 01:18:15.300 10.128.97.210:54321   15763  Thread-5  INFO: Possible IP Address: eth0 (eth0), 10.128.97.210
+01-12 01:18:15.300 10.128.97.210:54321   15763  Thread-5  INFO: Possible IP Address: lo (lo), 127.0.0.1
+01-12 01:18:15.300 10.128.97.210:54321   15763  Thread-5  INFO: New (possible) client found, timestamp=-2283
+01-12 01:18:15.323 10.128.97.210:54321   15763  Thread-5  INFO: H2O node running in unencrypted mode.
+01-12 01:18:15.326 10.128.97.210:54321   15763  Thread-5  INFO: Internal communication uses port: 54322
+01-12 01:18:15.326 10.128.97.210:54321   15763  Thread-5  INFO: Listening for HTTP and REST traffic on http://10.128.97.210:54321/
+01-12 01:18:15.327 10.128.97.210:54321   15763  Thread-5  INFO: H2O cloud name: 'sparkling-water-jovyan_spark-application-1610414280236' on /10.128.97.210:54321, discovery address /227.150.141.119:58262
+01-12 01:18:15.328 10.128.97.210:54321   15763  Thread-5  INFO: If you have trouble connecting, try SSH tunneling from your local machine (e.g., via port 55555):
+01-12 01:18:15.328 10.128.97.210:54321   15763  Thread-5  INFO:   1. Open a terminal and run 'ssh -L 55555:localhost:54321 jovyan@10.128.97.210'
+01-12 01:18:15.328 10.128.97.210:54321   15763  Thread-5  INFO:   2. Point your browser to http://localhost:55555
+01-12 01:18:15.679 10.128.97.210:54321   15763  Thread-5  INFO: Log dir: '/home/jovyan/jupyter-notebooks/cloud_notebooks/Data Science/Next Steps/Examples/h2ologs/spark-application-1610414280236'
+01-12 01:18:15.679 10.128.97.210:54321   15763  Thread-5  INFO: Cur dir: '/home/jovyan/jupyter-notebooks/cloud_notebooks/Data Science/Next Steps/Examples'
+01-12 01:18:15.700 10.128.97.210:54321   15763  Thread-5  INFO: Distributed HTTP import not available (import from HTTP/HTTPS will be eager)
+01-12 01:18:15.705 10.128.97.210:54321   15763  Thread-5  INFO: HDFS subsystem successfully initialized
+01-12 01:18:15.718 10.128.97.210:54321   15763  Thread-5  INFO: S3 subsystem successfully initialized
+01-12 01:18:15.815 10.128.97.210:54321   15763  Thread-5  INFO: GCS subsystem successfully initialized
+01-12 01:18:15.815 10.128.97.210:54321   15763  Thread-5  INFO: Flow dir: '/home/jovyan/h2oflows'
+01-12 01:18:15.970 10.128.97.210:54321   15763  Thread-5  INFO: Registered parsers: [GUESS, ARFF, XLS, SVMLight, AVRO, PARQUET, ORC, CSV]
+01-12 01:18:15.973 10.128.97.210:54321   15763  Thread-5  INFO: HiveTableImporter extension initialized
+01-12 01:18:15.973 10.128.97.210:54321   15763  Thread-5  INFO: StackTraceCollector extension initialized
+01-12 01:18:15.973 10.128.97.210:54321   15763  Thread-5  INFO: XGBoost extension initialized
+01-12 01:18:15.973 10.128.97.210:54321   15763  Thread-5  INFO: Registered 3 core extensions in: 225ms
+01-12 01:18:15.973 10.128.97.210:54321   15763  Thread-5  INFO: Registered H2O core extensions: [HiveTableImporter, StackTraceCollector, XGBoost]
+01-12 01:18:16.818 10.128.97.210:54321   15763  FJ-126-15 INFO: Cloud of size 1 formed [10.128.97.114/10.128.97.114:54321]
+01-12 01:18:17.092 10.128.97.210:54321   15763  Thread-5  INFO: Found XGBoost backend with library: xgboost4j_gpu
+01-12 01:18:17.092 10.128.97.210:54321   15763  Thread-5  INFO: XGBoost supported backends: [WITH_GPU, WITH_OMP]
+01-12 01:18:17.382 10.128.97.210:54321   15763  Thread-5  INFO: Registered: 189 REST APIs in: 1409ms
+01-12 01:18:17.382 10.128.97.210:54321   15763  Thread-5  INFO: Registered REST API extensions: [XGBoost, Algos, Amazon S3, Sparkling Water REST API Extensions, AutoML, Core V3, TargetEncoder, Core V4]
+01-12 01:18:17.547 10.128.97.210:54321   15763  Thread-5  INFO: Registered: 292 schemas in 164ms
+01-12 01:18:17.547 10.128.97.210:54321   15763  Thread-5  INFO: H2O started in 3043ms
+01-12 01:18:17.547 10.128.97.210:54321   15763  Thread-5  INFO: 
+01-12 01:18:17.547 10.128.97.210:54321   15763  Thread-5  INFO: Open H2O Flow in your web browser: http://10.128.97.210:54321
+01-12 01:18:17.547 10.128.97.210:54321   15763  Thread-5  INFO: 
+01-12 01:18:17.547 10.128.97.210:54321   15763  Thread-5  INFO: Distributing worker nodes locations: (2,10.128.97.114,54321),(1,10.128.96.213,54321)
+01-12 01:18:17.547 10.128.97.210:54321   15763  Thread-5  INFO: Distributing client location: (driver,10.128.97.210,54321)
+01-12 01:18:17.562 10.128.97.210:54321   15763  Thread-5  INFO: Waiting for clouding to finish. Current number of nodes 1. Target number of nodes: 2
+01-12 01:18:19.811 10.128.97.210:54321   15763  FJ-126-15 INFO: Cloud of size 2 formed [10.128.97.114/10.128.97.114:54321, 10.128.96.213/10.128.96.213:54321]
+01-12 01:18:29.262 10.128.97.210:54321   15763  Thread-5  INFO: Locking cloud to new members, because water.parser.ParseTime$1
+01-12 01:18:29.908 10.128.97.210:54321   15763  #3220-229 INFO: GET /3/Capabilities/API, parms: {}
+01-12 01:19:04.176 10.128.97.210:54321   15763  #3220-229 INFO: GET /3/Frames/frame_rdd_19_969a92d8c7e53063f7982e4d8384dbe/light, parms: {column_offset=0, full_column_count=-1, row_count=10, row_offset=0, column_count=-1}
+01-12 01:19:04.611 10.128.97.210:54321   15763  #3220-229 INFO: GET /3/Frames/frame_rdd_19_969a92d8c7e53063f7982e4d8384dbe, parms: {row_count=10}
+01-12 01:19:04.848 10.128.97.210:54321   15763  #3220-229 INFO: POST /3/ImportFilesMulti, parms: {paths=[https://splice-demo.s3.amazonaws.com/AmazonReviews.csv]}
+01-12 01:19:05.013 10.128.97.210:54321   15763  #3220-229 INFO: Reading byte InputStream into Frame:
+01-12 01:19:05.013 10.128.97.210:54321   15763  #3220-229 INFO:     frameKey:    https://splice-demo.s3.amazonaws.com/AmazonReviews.csv
+01-12 01:19:05.673 10.128.97.210:54321   15763  #3220-229 INFO:     totalChunks: 13
+01-12 01:19:05.673 10.128.97.210:54321   15763  #3220-229 INFO:     totalBytes:  53597783
+01-12 01:19:05.718 10.128.97.210:54321   15763  #3220-229 INFO:     Success.
+01-12 01:19:05.735 10.128.97.210:54321   15763  #3220-229 INFO: POST /3/ParseSetup, parms: {source_frames=["https://splice-demo.s3.amazonaws.com/AmazonReviews.csv"], check_header=0}
+01-12 01:19:06.588 10.128.97.210:54321   15763  #3220-229 INFO: POST /3/Parse, parms: {number_columns=10, source_frames=["https://splice-demo.s3.amazonaws.com/AmazonReviews.csv"], column_types=["Enum","Enum","Enum","Numeric","Numeric","Numeric","Enum","Numeric","Numeric","String"], single_quotes=False, parse_type=CSV, destination_frame=AmazonReviews.hex, column_names=["ProductId","UserId","Summary","Score","HelpfulnessDenominator","Id","ProfileName","HelpfulnessNumerator","Time","Text"], delete_on_done=True, check_header=1, separator=44, blocking=False, chunk_size=4194304}
+01-12 01:19:06.601 10.128.97.210:54321   15763  #3220-229 INFO: Total file size: 51.1 MB
+01-12 01:19:06.601 10.128.97.210:54321   15763  #3220-229 INFO: Parse chunk size 4194304
+01-12 01:19:08.481 10.128.97.210:54321   15763  FJ-1-9    INFO: Parse result for AmazonReviews.hex (100000 rows, 10 columns):
+01-12 01:19:08.525 10.128.97.210:54321   15763  FJ-1-9    INFO:                   ColV2    type          min          max         mean        sigma         NAs constant cardinality
+01-12 01:19:08.525 10.128.97.210:54321   15763  FJ-1-9    INFO:               ProductId:  factor   0006641040   B009SF0TN6                                                 31787
+01-12 01:19:08.525 10.128.97.210:54321   15763  FJ-1-9    INFO:                  UserId:  factor #oc-R11D9D7S AZZZOVIBXHGD                                                 71509
+01-12 01:19:08.526 10.128.97.210:54321   15763  FJ-1-9    INFO:                 Summary:  factor ! Mmmmmmmmmm Åwesome Coff                                                 72042
+01-12 01:19:08.526 10.128.97.210:54321   15763  FJ-1-9    INFO:                   Score: numeric      1.00000      5.00000      4.18609      1.30954                            
+01-12 01:19:08.526 10.128.97.210:54321   15763  FJ-1-9    INFO:  HelpfulnessDenominator: numeric      0.00000      878.000      2.23656      8.80540                            
+01-12 01:19:08.526 10.128.97.210:54321   15763  FJ-1-9    INFO:                      Id: numeric      3.00000       568436       284620       164159                            
+01-12 01:19:08.527 10.128.97.210:54321   15763  FJ-1-9    INFO:             ProfileName:  factor :Jury Duty: Étaín d'Orph                                                 64502
+01-12 01:19:08.527 10.128.97.210:54321   15763  FJ-1-9    INFO:    HelpfulnessNumerator: numeric      0.00000      866.000      1.74555      8.17145                            
+01-12 01:19:08.527 10.128.97.210:54321   15763  FJ-1-9    INFO:                    Time: numeric  9.40810e+08  1.35121e+09  1.29617e+09  4.81074e+07                            
+01-12 01:19:08.527 10.128.97.210:54321   15763  FJ-1-9    INFO:                    Text:  string                                                                                
+01-12 01:19:08.530 10.128.97.210:54321   15763  FJ-1-9    INFO: Chunk compression summary:
+01-12 01:19:08.530 10.128.97.210:54321   15763  FJ-1-9    INFO:   Chunk Type                 Chunk Name       Count  Count Percentage        Size  Size Percentage
+01-12 01:19:08.530 10.128.97.210:54321   15763  FJ-1-9    INFO:          C1N  1-Byte Integers (w/o NAs)          19          14.615 %    145.0 KB          0.320 %
+01-12 01:19:08.530 10.128.97.210:54321   15763  FJ-1-9    INFO:           C2            2-Byte Integers          33          25.385 %    495.9 KB          1.093 %
+01-12 01:19:08.530 10.128.97.210:54321   15763  FJ-1-9    INFO:          C2S           2-Byte Fractions          13          10.000 %    196.4 KB          0.433 %
+01-12 01:19:08.530 10.128.97.210:54321   15763  FJ-1-9    INFO:           C4            4-Byte Integers          52          40.000 %      1.5 MB          3.451 %
+01-12 01:19:08.530 10.128.97.210:54321   15763  FJ-1-9    INFO:         CStr                    Strings          13          10.000 %     42.0 MB         94.704 %
+01-12 01:19:08.530 10.128.97.210:54321   15763  FJ-1-9    INFO: Frame distribution summary:
+01-12 01:19:08.530 10.128.97.210:54321   15763  FJ-1-9    INFO:                            Size  Number of Rows  Number of Chunks per Column  Number of Chunks
+01-12 01:19:08.530 10.128.97.210:54321   15763  FJ-1-9    INFO: 10.128.97.114:54321     24.3 MB           54893                            7                70
+01-12 01:19:08.530 10.128.97.210:54321   15763  FJ-1-9    INFO: 10.128.96.213:54321     20.0 MB           45107                            6                60
+01-12 01:19:08.530 10.128.97.210:54321   15763  FJ-1-9    INFO:                mean     22.2 MB    50000.000000                     6.500000         65.000000
+01-12 01:19:08.530 10.128.97.210:54321   15763  FJ-1-9    INFO:                 min     20.0 MB    45107.000000                     6.000000         60.000000
+01-12 01:19:08.530 10.128.97.210:54321   15763  FJ-1-9    INFO:                 max     24.3 MB    54893.000000                     7.000000         70.000000
+01-12 01:19:08.530 10.128.97.210:54321   15763  FJ-1-9    INFO:              stddev      2.1 MB     4893.000000                     0.500000          5.000000
+01-12 01:19:08.530 10.128.97.210:54321   15763  FJ-1-9    INFO:               total     44.3 MB          100000                           13               130
+01-12 01:19:08.585 10.128.97.210:54321   15763  #3220-224 INFO: GET /3/Frames/AmazonReviews.hex, parms: {column_offset=0, full_column_count=-1, row_count=10, row_offset=0, column_count=-1}
+01-12 01:19:08.819 10.128.97.210:54321   15763  #3220-224 INFO: POST /4/sessions, parms: {}
+01-12 01:19:08.841 10.128.97.210:54321   15763  #3220-224 INFO: POST /99/Rapids, parms: {ast=(tmp= py_1_sid_a89c (rows AmazonReviews.hex [0:10])), session_id=_sid_a89c}
+01-12 01:19:09.328 10.128.97.210:54321   15763  #3220-224 INFO: GET /3/Frames/py_1_sid_a89c, parms: {column_offset=0, full_column_count=-1, row_count=10, row_offset=0, column_count=200}
+01-12 01:19:10.496 10.128.97.210:54321   15763  #3220-224 INFO: POST /99/Rapids, parms: {ast=(tmp= py_2_sid_a89c (rows AmazonReviews.hex [0:10])), session_id=_sid_a89c}
+01-12 01:19:10.560 10.128.97.210:54321   15763  #3220-224 INFO: GET /3/Frames/py_2_sid_a89c, parms: {column_offset=0, full_column_count=-1, row_count=10, row_offset=0, column_count=200}
+01-12 01:19:10.896 10.128.97.210:54321   15763  #3220-224 INFO: POST /99/Rapids, parms: {ast=(rm py_2_sid_a89c), session_id=_sid_a89c}
+01-12 01:19:26.562 10.128.97.210:54321   15763  #3220-224 INFO: POST /99/Rapids, parms: {ast=(tmp= py_3_sid_a89c (append AmazonReviews.hex (ifelse (>= (cols_py AmazonReviews.hex 'Score') 4) '1' '0') 'PositiveReview')), session_id=_sid_a89c}
+01-12 01:19:26.766 10.128.97.210:54321   15763  #3220-224 INFO: GET /3/Frames/py_3_sid_a89c, parms: {column_offset=0, full_column_count=-1, row_count=10, row_offset=0, column_count=-1}
+01-12 01:19:26.957 10.128.97.210:54321   15763  #3220-224 INFO: POST /99/Rapids, parms: {ast=(tmp= py_4_sid_a89c (table (cols_py py_3_sid_a89c 'PositiveReview') True)), session_id=_sid_a89c}
+01-12 01:19:27.058 10.128.97.210:54321   15763  #3220-224 INFO: GET /3/Frames/py_4_sid_a89c, parms: {column_offset=0, full_column_count=-1, row_count=10, row_offset=0, column_count=-1}
+01-12 01:19:27.468 10.128.97.210:54321   15763  #3220-224 INFO: POST /99/Rapids, parms: {ast=(tmp= py_5_sid_a89c (cols_py py_3_sid_a89c ['ProductId' 'UserId' 'HelpfulnessNumerator' 'HelpfulnessDenominator' 'Time' 'PositiveReview'])), session_id=_sid_a89c}
+01-12 01:19:28.038 10.128.97.210:54321   15763  #3220-224 INFO: POST /99/Rapids, parms: {ast=(rm py_5_sid_a89c), session_id=_sid_a89c}
+01-12 01:19:28.953 10.128.97.210:54321   15763  #3220-224 INFO: POST /99/Rapids, parms: {ast=(tmp= py_7_sid_a89c (rows py_3_sid_a89c (<= (tmp= py_6_sid_a89c (h2o.runif py_3_sid_a89c -1)) 0.7))), session_id=_sid_a89c}
+01-12 01:19:29.236 10.128.97.210:54321   15763  #3220-224 INFO: GET /3/Frames/py_7_sid_a89c, parms: {column_offset=0, full_column_count=-1, row_count=10, row_offset=0, column_count=-1}
+01-12 01:19:29.633 10.128.97.210:54321   15763  #3220-224 INFO: POST /99/Rapids, parms: {ast=(tmp= py_8_sid_a89c (rows py_3_sid_a89c (& (> py_6_sid_a89c 0.7) (<= py_6_sid_a89c 0.85)))), session_id=_sid_a89c}
+01-12 01:19:29.806 10.128.97.210:54321   15763  #3220-224 INFO: GET /3/Frames/py_8_sid_a89c, parms: {column_offset=0, full_column_count=-1, row_count=10, row_offset=0, column_count=-1}
+01-12 01:19:30.083 10.128.97.210:54321   15763  #3220-224 INFO: POST /99/Rapids, parms: {ast=(tmp= py_9_sid_a89c (rows py_3_sid_a89c (> py_6_sid_a89c 0.85))), session_id=_sid_a89c}
+01-12 01:19:30.188 10.128.97.210:54321   15763  #3220-224 INFO: GET /3/Frames/py_9_sid_a89c, parms: {column_offset=0, full_column_count=-1, row_count=10, row_offset=0, column_count=-1}
+01-12 01:19:30.403 10.128.97.210:54321   15763  #3220-224 INFO: POST /99/Rapids, parms: {ast=(rm py_6_sid_a89c), session_id=_sid_a89c}
+01-12 01:19:30.523 10.128.97.210:54321   15763  #3220-224 INFO: POST /3/ModelBuilders/gbm, parms: {model_id=gbm_baseline.hex, stopping_tolerance=0.001, validation_frame=py_8_sid_a89c, response_column=PositiveReview, stopping_rounds=5, training_frame=py_7_sid_a89c, score_tree_interval=10, ignored_columns=["Summary","Score","ProfileName","Id","Text"], stopping_metric=AUC}
+01-12 01:19:35.690 10.128.97.210:54321   15763  #3220-224 INFO: GET /3/Models/gbm_baseline.hex, parms: {}
+01-12 01:19:36.592 10.128.97.210:54321   15763  #3220-224 INFO: GET /99/Models.bin/gbm_baseline.hex, parms: {dir=/tmp/tmpo0b5tjnm/model/model.h2o/gbm_baseline.hex, force=True}
