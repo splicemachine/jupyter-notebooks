@@ -69,18 +69,8 @@ def convert_parsed(zeppelin_note):
     """
     notebook_name = zeppelin_note['name']
 
-    # adding the default SPLICEMACHINE cells at the top
+    # adding the default Splice Import cell at the top
     cells = [
-        {
-            "cell_type": "code",
-            "execution_count": None,
-            "metadata": {},
-            "outputs": [],
-            "source": [
-                "import os\n",
-                "os.environ['JDBC_HOST'] = 'jr1000-splice-hregion'\n"
-            ]
-        },
         {
             "cell_type": "code",
             "execution_count": None,
@@ -94,29 +84,8 @@ def convert_parsed(zeppelin_note):
                 "from pyspark.conf import SparkConf\n",
                 "from pyspark.sql import SparkSession\n",
                 "\n",
-                "# make sure pyspark tells workers to use python3 not 2 if both are installed\n",
-                "os.environ['PYSPARK_PYTHON'] = '/usr/bin/python3'\n",
-                "jdbc_host = os.environ['JDBC_HOST']\n",
-                "\n",
-                "conf = pyspark.SparkConf()\n",
-                "sc = pyspark.SparkContext(conf=conf)\n",
-                "\n",
-                "spark = SparkSession.builder.config(conf=conf).getOrCreate()\n",
-                "'''jdbc:splice://{FRAMEWORKNAME}-proxy.marathon.mesos:1527/splicedb;user=splice;password=admin'''\n",
-                "\n",
-                "splicejdbc=f'jdbc:splice://{jdbc_host}:1527/splicedb;user=splice;password=admin'\n",
-                "\n",
-                "splice = PySpliceContext(spark, splicejdbc)\n"
-            ]
-        },
-        {
-            "cell_type": "code",
-            "execution_count": None,
-            "metadata": {},
-            "outputs": [],
-            "source": [
-                "%%sql\n",
-                "%defaultDatasource jdbc:splice://jrtest01-splice-hregion:1527/splicedb;user=splice;password=admin"
+                "spark = SparkSession.builder.getOrCreate()\n",
+                "splice = PySpliceContext(spark)\n"
             ]
         }
     ]
