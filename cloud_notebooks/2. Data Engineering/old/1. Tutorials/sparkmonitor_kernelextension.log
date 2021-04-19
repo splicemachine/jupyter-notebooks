@@ -1,0 +1,25 @@
+INFO:  2021-04-19 21:29:57,024 - sparkmonitorkernel - 253 - MainProcess -         140520699934528 - MainThread
+ Starting Kernel Extension 
+
+INFO:  2021-04-19 21:29:57,024 - sparkmonitorkernel - 253 - MainProcess -         140520699934528 - MainThread
+ Socket Listening on port 36757 
+
+INFO:  2021-04-19 21:29:57,025 - sparkmonitorkernel - 253 - MainProcess -         140519745287936 - Thread-4
+ Starting socket thread, going to accept 
+
+INFO:  2021-04-19 21:29:57,025 - sparkmonitorkernel - 253 - MainProcess -         140520699934528 - MainThread
+ 36757 
+
+INFO:  2021-04-19 21:29:57,026 - sparkmonitorkernel - 253 - MainProcess -         140520699934528 - MainThread
+ Adding jar from /opt/conda/lib/python3.7/site-packages/sparkmonitor/listener.jar  
+
+INFO:  2021-04-19 21:29:57,177 - sparkmonitorkernel - 253 - MainProcess -         140520699934528 - MainThread
+ COMM OPENED MESSAGE: 
+ {'header': {'msg_id': 'b5aa37014df24918bf4aae772454f255', 'username': 'username', 'session': '80bb8bfedfcc4a1d8b8dee2161559897', 'msg_type': 'comm_open', 'version': '5.2', 'date': datetime.datetime(2021, 4, 19, 21, 29, 57, 176251, tzinfo=datetime.timezone.utc)}, 'msg_id': 'b5aa37014df24918bf4aae772454f255', 'msg_type': 'comm_open', 'parent_header': {}, 'metadata': {}, 'content': {'comm_id': '63a3651af71048558e5dafe3043f98ec', 'target_name': 'SparkMonitor', 'data': {'msgtype': 'openfromfrontend'}}, 'buffers': []} 
+ 
+
+INFO:  2021-04-19 21:29:57,370 - sparkmonitorkernel - 253 - MainProcess -         140520699934528 - MainThread
+ COMM OPENED MESSAGE: 
+ {'header': {'msg_id': '24dfb3f11213474b8534cce69af6bee2', 'username': 'username', 'session': '80bb8bfedfcc4a1d8b8dee2161559897', 'msg_type': 'comm_open', 'version': '5.2', 'date': datetime.datetime(2021, 4, 19, 21, 29, 57, 369911, tzinfo=datetime.timezone.utc)}, 'msg_id': '24dfb3f11213474b8534cce69af6bee2', 'msg_type': 'comm_open', 'parent_header': {}, 'metadata': {}, 'content': {'comm_id': '1c065ee81b8e447096899f59b5378d01', 'target_name': 'SparkMonitor', 'data': {'msgtype': 'openfromfrontend'}}, 'buffers': []} 
+ 
+
